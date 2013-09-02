@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
+		id="org.zraza.cordova.appshare"
+		version="0.0.1">
+	<name>AppShare</name>
+	<description>Cordova AppShare Plugin</description>
+	<author>Zeeshan Raza</author>
+	<license>The MIT License</license>
+	<keywords>cordova,phonegap,App Share,share</keywords>
+
+	<engines>
+		<engine name="cordova" version="<=3.0.0" />
+	</engines>
+	<js-module src="www/AppShare.js" name="AppShare">
+		<clobbers target="navigator.share"/>
+	</js-module>
+	<!-- android -->
+	<platform name="android">
+		<!-- android-specific elements -->
+	</platform>
+
+	<!-- ios -->
+	<platform name="ios">
+		<!-- ios-specific elements -->
+	</platform>
+
+	<!-- bb10 -->
+	<platform name="bb10">
+		<!-- bb10-specific elements -->
+	</platform>
+
+</plugin>
